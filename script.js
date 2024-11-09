@@ -19,7 +19,7 @@ function initMap() {
       results.forEach(place => {
 
         const model = new google.maps.maps.Model({
-          url: "./models/icecream.glb",
+          url: "https://github.com/ahsanashraf22/3D-Ice-Cream-Hunt/blob/main/icecream.glb",
           position: place.geometry.location,
           map: map,
           scale: 0.1,

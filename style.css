@@ -1,0 +1,5 @@
+/* Basic map styling */
+#map {
+    height: 100vh; /* Make the map take up the full viewport height */
+    width: 100%;
+  }
